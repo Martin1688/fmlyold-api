@@ -46,6 +46,7 @@ app.use('/api', (req, res, next) => {
     if (allowedOrigins.indexOf(origin) > -1) {
         res.header('Access-Control-Allow-Origin', origin);
     }
+    
    // res.header('Access-Control-Allow-Origin', 'https://fmlyoldweb-public.vercel.app');
 
     //res.header('Access-Control-Allow-Origin', '*');
